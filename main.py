@@ -6,6 +6,7 @@ songs = pd.read_csv("./data/dataset.csv", header=0)
 
 # Use `head()` to show the first five rows of `songs`.
 print(songs.head())
+print(songs.head(10))
 
 # This dataset includes a column called ‘duration_ms’ that has a string of each track’s length in milliseconds.
 
