@@ -1,5 +1,5 @@
 import pandas as pd
-
+import numpy as np
 
 # Use the pandas `.read_csv()` method to assign the contents of the Spotify dataset to a variable called `songs`.
 songs = pd.read_csv("./data/dataset.csv", header=0)
